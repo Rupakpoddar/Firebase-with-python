@@ -1,2 +1,3 @@
 # Firebase-with-python
-initial release, will update this soon
+Before running the scripts, make sure that your firebase project's read and write rules are set to 'true'.
+Avoiding this will result in an error.
