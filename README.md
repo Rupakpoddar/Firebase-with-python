@@ -3,5 +3,3 @@ Before running the scripts, make sure that your firebase project's ".read" and "
 Avoiding this will result in an error.
 
 Watch the tutorial video at- https://youtu.be/cIa5vQ7rRa0
-
-For more details, visit- https://github.com/Rupakpoddar/ESP8266Firebase/blob/master/README.md
