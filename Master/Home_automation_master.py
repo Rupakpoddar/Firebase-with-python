@@ -1,16 +1,17 @@
-""" Make sure that your firebase project's
-read and write rules are set to 'true'.
-Avoiding this step wont run the code. """
-##########################
-#          Written by Rupak Poddar          #
-##########################
+# Make sure your firebase project's 'read' and 'write' rules are set to 'true'.
+# Avoiding this step will lead to an error.
+
+#############################################
+##          Written by Rupak Poddar        ##
+#############################################
+
 from tkinter import*
 import requests
 import json
 
-##### Your project ID goes here #######
+######### Your project ID goes here #########
 project_ID = "YOUR PROJECT ID GOES HERE"
-#############################
+#############################################
 
 url = "https://"+project_ID+".firebaseio.com/cmd"
 
@@ -29,12 +30,12 @@ def get_status(canvas, Status, highlights):
         canvas.coords(highlights[0], 90,90,245,185)
     if (decider["Device1"] == "OFF"):
         canvas.coords(highlights[0], 240,90,395,185)
-        
+
     if (decider["Device2"] == "ON"):
         canvas.coords(highlights[1], 90,190,245,285)
     if (decider["Device2"] == "OFF"):
         canvas.coords(highlights[1], 240,190,395,285)
-        
+
     if (decider["Device3"] == "ON"):
         canvas.coords(highlights[2], 90,290,245,385)
     if (decider["Device3"] == "OFF"):
